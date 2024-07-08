@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .profile-card {
+            background-color: rgba(255, 255, 255, 0.168);
+            width: 350px;
+            height: 500px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+        }
+
+        .profile-image {
+            padding-top: 20px;
+        }
+
+        .profile-image img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+
+        .profile-info {
+            margin-bottom: 20px;
+        }
+
+        .profile-info h2 {
+            color: #828282;
+        }
+
+        .profile-info p {
+            color: #26235c;
+            margin: -14px 0px;
+        }
+        .peofile_short_description p {
+            padding: 20px 30px;
+            margin: -14px 0px;
+            font-size: 15px;
+        }
+        .profile_contanct p {
+            color: #26235c;
+            margin: 4px 0px;
+        }
+
+        .bold_content {
+            color: #828282;
+            font-weight: bold;
+            margin-right: 5px;
+        }
+
+        .profile-socials {
+            padding: 10px 0px;
+
+        }
+        .profile-socials a {
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            background-color: #26235c;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 5px;
+            color: #fff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="profile-card">
+        <div class="profile-image">
+            <img src="image/corporate.jpg" alt="corporate.jpg">
+        </div>
+        <div class="profile-info">
+            <h2>Md. Mehejabul Bhuia</h2>
+            <p>Frontend Developer</p>
+        </div>
+        <div class="peofile_short_description">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi aut animi harum iure. Quas, ullam.</p>
+        </div>
+        <div class="profile_contanct">
+            <p><span class="bold_content">Email:</span>mehejabul@gmail.com</p>
+            <p><span class="bold_content">Phone:</span>01714-294499</p>
+        </div>
+        <div class="profile-socials">
+            <a href="#" class="social-link"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="social-link"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </div>
+</body>
+
+</html>
